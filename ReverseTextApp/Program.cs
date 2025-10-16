@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Console.Write("### Tersten Metin Uygulamasına Hoşgeldiniz ###");
 Console.Write("Bir metin girin: ");
 string input = Console.ReadLine();
 
