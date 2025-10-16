@@ -1,4 +1,5 @@
-﻿Console.Write("### Tersten Metin Uygulamasına Hoşgeldiniz ###");
+﻿Console.WriteLine("### Tersten Metin Uygulamasına Hoşgeldiniz ###");
+Console.WriteLine("Linux için bazı paketler eklendi.");
 Console.Write("Bir metin girin: ");
 string input = Console.ReadLine();
 
