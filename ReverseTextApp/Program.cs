@@ -1,0 +1,13 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.Write("Bir metin girin: ");
+string input = Console.ReadLine();
+
+// Metni tersten çevir
+char[] charArray = input.ToCharArray();
+Array.Reverse(charArray);
+string reversed = new string(charArray);
+
+Console.WriteLine($"Tersten yazılışı: {reversed}");
+
+Console.WriteLine("\nÇıkmak için bir tuşa basın...");
+Console.ReadKey();
